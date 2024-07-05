@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaveMoney ATM</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <div class="header-content">
+        <img src="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA3L2FpZ2VuZXJhdGVkLTI0MDcyMy1yb2JfcmF3cGl4ZWxfYXRtX2ljb25fYmx1ZV9wdXJwbGVwaW5rX3JvdW5kZWRfbm90X3NoYXJwX3NpbXBsZV9fYjk3YWI1NWUtZDQ2YS00YWU4LWE5MTUtNjkzZTRkM2ViYWE0LWhxLXNjYWxlLTVfMDB4XzEucG5n.png" alt="Logo" class="logo">
+        <nav>
+            <a href="#">Let's Save</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+        </nav>
+    </div>
+</header>
+<main>
+    <h1>Welcome to the SaveMoney ATM</h1>
+    <div class="atm-container">
+        <input type="text" id="amount" placeholder="Enter amount">
+        <div class="buttons">
+            <button onclick="deposit()">Deposit</button>
+            <button onclick="withdraw()">Withdraw</button>
+            <button onclick="checkBalance()">Check Balance</button>
+            <button onclick="checkStatement()">Check Statement</button>
+            <button onclick="exitATM()">Exit</button>
+        </div>
+    </div>
+    <div id="message"></div>
+</main>
+<footer>
+    <div class="page-owner">
+        Coded by @Kerileng
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
